@@ -4,17 +4,24 @@
   <artifactId>SharnaApu</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
     </properties>
     <dependencies>
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.9.0</version>
+    <version>4.13.0</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.5.3</version>
+</dependency>
+
+
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
