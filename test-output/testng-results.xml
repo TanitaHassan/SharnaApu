@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-29T10:26:59 EDT" name="Default suite" finished-at="2023-07-29T10:27:06 EDT" duration-ms="7586">
+  <suite started-at="2023-10-04T15:58:47 EDT" name="Default suite" finished-at="2023-10-04T15:58:52 EDT" duration-ms="5146">
     <groups>
     </groups>
-    <test started-at="2023-07-29T10:26:59 EDT" name="Default test" finished-at="2023-07-29T10:27:06 EDT" duration-ms="7586">
-      <class name="com.facebook.Navigation">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.facebook.Navigation@5c6648b0]" started-at="2023-07-29T10:26:59 EDT" name="openApplication" finished-at="2023-07-29T10:27:04 EDT" duration-ms="5332" status="PASS">
+    <test started-at="2023-10-04T15:58:47 EDT" name="Default test" finished-at="2023-10-04T15:58:52 EDT" duration-ms="5146">
+      <class name="pageFactory.LoginTest">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:pageFactory.LoginTest@7b98f307]" started-at="2023-10-04T15:58:47 EDT" name="openApp" finished-at="2023-10-04T15:58:52 EDT" duration-ms="4522" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="linkTest()[pri:0, instance:com.facebook.Navigation@5c6648b0]" started-at="2023-07-29T10:27:04 EDT" name="linkTest" finished-at="2023-07-29T10:27:06 EDT" duration-ms="2169" status="PASS">
+        </test-method> <!-- openApp -->
+        <test-method signature="validLoginTest()[pri:0, instance:pageFactory.LoginTest@7b98f307]" started-at="2023-10-04T15:58:52 EDT" name="validLoginTest" finished-at="2023-10-04T15:58:52 EDT" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkTest -->
-      </class> <!-- com.facebook.Navigation -->
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- pageFactory.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
